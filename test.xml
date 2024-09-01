@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<photoWrap>
+  <photo>
+    <text>Photo</text>
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <img src="https://picsum.photos/id/1/200/300" />
+    </html>
+  </photo>
+</photoWrap>
+
+<soundWrap>
+  <sound>
+    <html xmlns="http://www.w3.org/1999/xhtml">
+        <audio controls="">
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+        </audio>
+    </html>
+  </sound>
+</soundWrap>

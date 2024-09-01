@@ -1,0 +1,11 @@
+<!ELEMENT itemWrap (item)>
+<!ATTLIST itemWrap style CDATA #REQUIRED>
+<!ELEMENT item (txt,element)>
+<!ELEMENT txt (#PCDATA)>
+<!ELEMENT element EMPTY>
+<!ATTLIST element type NMTOKEN #REQUIRED>
+<!ATTLIST element src CDATA #REQUIRED>
+<!ATTLIST element x NMTOKEN #REQUIRED>
+<!ATTLIST element y NMTOKEN #REQUIRED>
+<!ATTLIST element width NMTOKEN #REQUIRED>
+<!ATTLIST element height NMTOKEN #REQUIRED>

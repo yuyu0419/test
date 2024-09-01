@@ -1,0 +1,26 @@
+<!ELEMENT orderWrap (tTitle,order+)>
+<!ELEMENT tTitle (orderNoTit,orderDate,custNum,code,productName,qty,price,totalPrice,method)>
+<!ELEMENT orderNoTit (#PCDATA)>
+<!ELEMENT orderDate (#PCDATA)>
+<!ELEMENT custNum (#PCDATA)>
+<!ELEMENT code (#PCDATA)>
+<!ELEMENT productName (#PCDATA)>
+<!ELEMENT qty (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT totalPrice (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT order (orderNo, date, custNo, prdCode, prdName, prdQty, prdPrice, total, payment)>
+<!ATTLIST order 
+    orderNo ID #REQUIRED
+    prdCode CDATA #REQUIRED
+    payment CDATA #REQUIRED
+>
+<!ELEMENT orderNo (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT custNo (#PCDATA)>
+<!ELEMENT prdCode (#PCDATA)>
+<!ELEMENT prdName (#PCDATA)>
+<!ELEMENT prdQty (#PCDATA)>
+<!ELEMENT prdPrice (#PCDATA)>
+<!ELEMENT total (#PCDATA)>
+<!ELEMENT payment (#PCDATA)>

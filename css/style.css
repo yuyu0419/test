@@ -1,0 +1,220 @@
+orderWrap {
+  display: block;
+  width: 90%;
+  min-width: 700px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+orderWrap tTitle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background: #e0e0e0;
+  border-bottom: 1px dotted #000;
+}
+orderWrap tTitle > * {
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+orderWrap tTitle orderNoTit {
+  width: 10%;
+  background: #e0e0e0;
+}
+orderWrap tTitle orderDate {
+  width: 15%;
+}
+orderWrap tTitle custNum {
+  width: 15%;
+}
+orderWrap tTitle code {
+  width: 10%;
+}
+orderWrap tTitle productName {
+  width: 15%;
+}
+orderWrap tTitle qty {
+  width: 5%;
+}
+orderWrap tTitle price {
+  width: 10%;
+}
+orderWrap tTitle totalPrice {
+  width: 10%;
+}
+orderWrap tTitle method {
+  width: 10%;
+}
+orderWrap order {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px dotted #000;
+}
+orderWrap order:last-child {
+  border-bottom: 0;
+}
+orderWrap order > * {
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+orderWrap order orderNo {
+  width: 10%;
+  background: #e0e0e0;
+}
+orderWrap order date {
+  width: 15%;
+}
+orderWrap order custNo {
+  width: 15%;
+}
+orderWrap order prdCode {
+  width: 10%;
+}
+orderWrap order prdName {
+  width: 15%;
+}
+orderWrap order prdQtt {
+  width: 5%;
+}
+orderWrap order prdPrice {
+  width: 10%;
+}
+orderWrap order prdPrice::before {
+  display: inline-block;
+  content: "$";
+}
+orderWrap order total {
+  width: 10%;
+}
+orderWrap order total::before {
+  display: inline-block;
+  content: "$";
+}
+orderWrap order payment {
+  width: 10%;
+}
+
+prdWrap {
+  display: block;
+  width: 40%;
+  min-width: 320px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+prdWrap tTitle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background: #e0e0e0;
+  border-bottom: 1px dotted #000;
+}
+prdWrap tTitle > * {
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+prdWrap tTitle prdCodeTit {
+  width: 20%;
+}
+prdWrap tTitle prdNameTit {
+  width: 40%;
+}
+prdWrap tTitle prdQttTit {
+  width: 20%;
+}
+prdWrap tTitle prdPriceTit {
+  width: 20%;
+}
+prdWrap product {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px dotted #000;
+  font-size: 0;
+}
+prdWrap product:last-child {
+  border-bottom: 0;
+}
+prdWrap product > * {
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+prdWrap product prdCode {
+  width: 20%;
+  background: #e0e0e0;
+}
+prdWrap product prdName {
+  width: 40%;
+}
+prdWrap product prdQtt {
+  width: 20%;
+}
+prdWrap product prdPrice {
+  width: 20%;
+}
+
+empWrap {
+  display: block;
+  width: 40%;
+  min-width: 320px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+empWrap tTitle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background: #e0e0e0;
+  border-bottom: 1px dotted #000;
+}
+empWrap tTitle > * {
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+empWrap tTitle empIdTit {
+  width: 20%;
+}
+empWrap tTitle userNameTit {
+  width: 40%;
+}
+empWrap tTitle pwTit {
+  width: 40%;
+}
+empWrap employee {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px dotted #000;
+  font-size: 0;
+}
+empWrap employee:last-child {
+  border-bottom: 0;
+}
+empWrap employee > * {
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+empWrap employee empId {
+  width: 20%;
+  background: #e0e0e0;
+}
+empWrap employee userName {
+  width: 40%;
+}
+empWrap employee pw {
+  width: 40%;
+}

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE prdWrap SYSTEM "product.dtd">
+<?xml-stylesheet type="text/css" href="css/style.css"?>
+<prdWrap>
+    <tTitle>
+        <prdCodeTit>Code</prdCodeTit>
+        <prdNameTit>Product Name</prdNameTit>
+        <prdQtyTit>Qty</prdQtyTit>
+        <prdPriceTit>Price</prdPriceTit>
+    </tTitle>
+    <product prdCode="001" prdName="Edible_oil">
+        <prdCode>001</prdCode>
+        <prdName>Edible oil</prdName>
+        <prdQty>300</prdQty>
+        <prdPrice>90</prdPrice>
+    </product>
+    <product prdCode="006" prdName="Toothbrush">
+        <prdCode>006</prdCode>
+        <prdName>Toothbrush</prdName>
+        <prdQty>50</prdQty>
+        <prdPrice>40</prdPrice>
+    </product>
+    <product prdCode="009" prdName="shampoo">
+        <prdCode>009</prdCode>
+        <prdName>shampoo</prdName>
+        <prdQty>100</prdQty>
+        <prdPrice>20</prdPrice>
+    </product>
+    <product prdCode="001" prdName="Edible_oil">
+        <prdCode>001</prdCode>
+        <prdName>Edible oil</prdName>
+        <prdQty>100</prdQty>
+        <prdPrice>90</prdPrice>
+    </product>
+    <product prdCode="001" prdName="Edible_oil">
+        <prdCode>001</prdCode>
+        <prdName>Edible oil</prdName>
+        <prdQty>30</prdQty>
+        <prdPrice>90</prdPrice>
+    </product>
+    <product prdCode="009" prdName="shampoo">
+        <prdCode>009</prdCode>
+        <prdName>shampoo</prdName>
+        <prdQty>50</prdQty>
+        <prdPrice>20</prdPrice>
+    </product>
+    <product prdCode="006" prdName="Toothbrush">
+        <prdCode>006</prdCode>
+        <prdName>Toothbrush</prdName>
+        <prdQty>100</prdQty>
+        <prdPrice>40</prdPrice>
+    </product>
+    <product prdCode="009" prdName="shampoo">
+        <prdCode>009</prdCode>
+        <prdName>shampoo</prdName>
+        <prdQty>200</prdQty>
+        <prdPrice>20</prdPrice>
+    </product>
+    <product prdCode="001" prdName="Edible_oil">
+        <prdCode>001</prdCode>
+        <prdName>Edible oil</prdName>
+        <prdQty>300</prdQty>
+        <prdPrice>90</prdPrice>
+    </product>
+    <product prdCode="009" prdName="shampoo">
+        <prdCode>009</prdCode>
+        <prdName>shampoo</prdName>
+        <prdQty>80</prdQty>
+        <prdPrice>20</prdPrice>
+    </product>
+    <product prdCode="001" prdName="Edible_oil">
+        <prdCode>001</prdCode>
+        <prdName>Edible oil</prdName>
+        <prdQty>500</prdQty>
+        <prdPrice>90</prdPrice>
+    </product>
+    <product prdCode="006" prdName="Toothbrush">
+        <prdCode>006</prdCode>
+        <prdName>Toothbrush</prdName>
+        <prdQty>150</prdQty>
+        <prdPrice>40</prdPrice>
+    </product>
+    <product prdCode="009" prdName="shampoo">
+        <prdCode>009</prdCode>
+        <prdName>shampoo</prdName>
+        <prdQty>200</prdQty>
+        <prdPrice>20</prdPrice>
+    </product>
+    <product prdCode="004" prdName="P_Biscuits">
+        <prdCode>004</prdCode>
+        <prdName>P_Biscuits</prdName>
+        <prdQty>50</prdQty>
+        <prdPrice>10</prdPrice>
+    </product>
+    <product prdCode="004" prdName="P_Biscuits">
+        <prdCode>004</prdCode>
+        <prdName>P_Biscuits</prdName>
+        <prdQty>50</prdQty>
+        <prdPrice>10</prdPrice>
+    </product>
+    <product prdCode="008" prdName="Cornflakes">
+        <prdCode>008</prdCode>
+        <prdName>Cornflakes</prdName>
+        <prdQty>40</prdQty>
+        <prdPrice>60</prdPrice>
+    </product>
+
+</prdWrap>

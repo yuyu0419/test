@@ -1,0 +1,15 @@
+<!ELEMENT prdWrap (tTitle,product+)>
+<!ELEMENT tTitle (prdCodeTit, prdNameTit, prdQtyTit, prdPriceTit)>
+<!ELEMENT prdCodeTit (#PCDATA)>
+<!ELEMENT prdNameTit (#PCDATA)>
+<!ELEMENT prdQtyTit (#PCDATA)>
+<!ELEMENT prdPriceTit (#PCDATA)>
+<!ELEMENT product (prdCode, prdName, prdQty, prdPrice)>
+<!ATTLIST product 
+    prdCode CDATA #REQUIRED
+    prdName CDATA #REQUIRED
+>
+<!ELEMENT prdCode (#PCDATA)>
+<!ELEMENT prdName (#PCDATA)>
+<!ELEMENT prdQty (#PCDATA)>
+<!ELEMENT prdPrice (#PCDATA)>

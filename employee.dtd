@@ -1,0 +1,12 @@
+<!ELEMENT empWrap (tTitle,employee+)>
+<!ELEMENT tTitle (empIdTit,userNameTit,pwTit)>
+<!ELEMENT empIdTit (#PCDATA)>
+<!ELEMENT userNameTit (#PCDATA)>
+<!ELEMENT pwTit (#PCDATA)>
+<!ELEMENT employee (empId, userName, pw)>
+<!ATTLIST employee 
+    empId ID #REQUIRED
+>
+<!ELEMENT empId (#PCDATA)>
+<!ELEMENT userName (#PCDATA)>
+<!ELEMENT pw (#PCDATA)>
