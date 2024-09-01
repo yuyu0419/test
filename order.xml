@@ -9,7 +9,7 @@
         <code>Product Code</code>
         <productName>Product Name</productName>
         <qty>Qty</qty>
-        <price>Prce</price>
+        <price>Price</price>
         <totalPrice>Total</totalPrice>
         <method>Method of Payment</method>
     </tTitle>

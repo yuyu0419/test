@@ -6,56 +6,23 @@ orderWrap{
     border: 1px solid #000;
     box-sizing: border-box;
     tTitle{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        // display: block;
+        display: block;
         width: 100%;
         background: #e0e0e0;
         border-bottom: 1px dotted #000;
         font-size: 0;
         
         > * {
-            // display: inline-block;
-            // vertical-align: middle;
+            display: inline-block;
+            vertical-align: middle;
             padding: 10px;
             font-size: 16px;
             text-align: center;
-        }
-        orderNoTit{
-            width: 10%;
-            background: #e0e0e0;
-        }
-        orderDate{
-            width: 15%;
-        }
-        custNum{
-            width: 15%;
-        }
-        code{
-            width: 9.5%;
-        }
-        productName{
-            width: 10%;
-        }
-        qty{
-            width: 5%;
-        }
-        price{
-            width: 10%;
-        }
-        totalPrice{
-            width: 5%;
-        }
-        method{
-            width: 10%;
-        }
+            box-sizing: border-box;
+        }   
     }
     order{
         display: block;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
         width: 100%;
         border-bottom: 1px dotted #000;
         font-size: 0;
@@ -63,48 +30,55 @@ orderWrap{
             border-bottom: 0;
         }
         > * {
-            // display: inline-block;
-            // vertical-align: middle;
+            display: inline-block;
+            vertical-align: middle;
             padding: 10px;
             font-size: 16px;
             text-align: center;
+            box-sizing: border-box;
         }
         orderNo{
-            width: 10%;
             background: #e0e0e0;
         }
-        date{
-            width: 15%;
-        }
-        custNo{
-            width: 15%;
-        }
-        prdCode{
-            width: 9.5%;
-        }
-        prdName{
-            width: 10%;
-        }
-        prdQty{
-            width: 5%;
-        }
         prdPrice{
-            width: 10%;
             &::before{
                 display: inline-block;
                 content: "$";
             }
         }
         total{
-            width: 10%;
             &::before{
                 display: inline-block;
                 content: "$";
             }
         }
-        payment{
-            width: 10%;
-        }
+    }
+    orderNoTit, orderNo{
+        width: 10%;
+    }
+    orderDate, date{
+        width: 15%;
+    }
+    custNum, custNo{
+        width: 15%;
+    }
+    code, prdCode{
+        width: 10%;
+    }
+    productName, prdName{
+        width: 15%;
+    }
+    qty, prdQty{
+        width: 5%;
+    }
+    price, prdPrice{
+        width: 10%;
+    }
+    totalPrice, total{
+        width: 10%;
+    }
+    method, payment{
+        width: 10%;
     }
 }
 
@@ -117,35 +91,23 @@ prdWrap{
     box-sizing: border-box;
 
     tTitle{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        display: block;
         width: 100%;
         background: #e0e0e0;
         border-bottom: 1px dotted #000;
+        font-size: 0;
         
         > * {
+            display: inline-block;
+            vertical-align: middle;
             padding: 10px;
             font-size: 16px;
             text-align: center;
-        }
-        prdCodeTit{
-            width: 20%;
-        }
-        prdNameTit{
-            width: 40%;
-        }
-        prdQtyTit{
-            width: 20%;
-        }
-        prdPriceTit{
-            width: 20%;
-        }
+            box-sizing: border-box;
+        }   
     }
     product{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        display: block;
         width: 100%;
         border-bottom: 1px dotted #000;
         font-size: 0;
@@ -153,23 +115,28 @@ prdWrap{
             border-bottom: 0;
         }
         > * {
+            display: inline-block;
+            vertical-align: middle;
             padding: 10px;
             font-size: 16px;
             text-align: center;
+            box-sizing: border-box;
         }
         prdCode{
-            width: 20%;
             background: #e0e0e0;
         }
-        prdName{
-            width: 40%;
-        }
-        prdQty{
-            width: 20%;
-        }
-        prdPrice{
-            width: 20%;
-        }
+    }
+    prdCodeTit, prdCode{
+        width: 20%;
+    }
+    prdNameTit, prdName{
+        width: 40%;
+    }
+    prdQtyTit, prdQty{
+        width: 20%;
+    }
+    prdPriceTit, prdPrice{
+        width: 20%;
     }
 }
 
@@ -180,33 +147,26 @@ empWrap{
     margin: 0 auto;
     border: 1px solid #000;
     box-sizing: border-box;
+    
     tTitle{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        display: block;
         width: 100%;
         background: #e0e0e0;
         border-bottom: 1px dotted #000;
+        font-size: 0;
         
         > * {
+            display: inline-block;
+            vertical-align: middle;
             padding: 10px;
             font-size: 16px;
             text-align: center;
-        }
-        empIdTit{
-            width: 20%;
-        }
-        userNameTit{
-            width: 40%;
-        }
-        pwTit{
-            width: 40%;
-        }
+            box-sizing: border-box;
+        }   
     }
+
     employee{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        display: block;
         width: 100%;
         border-bottom: 1px dotted #000;
         font-size: 0;
@@ -214,19 +174,24 @@ empWrap{
             border-bottom: 0;
         }
         > * {
+            display: inline-block;
+            vertical-align: middle;
             padding: 10px;
             font-size: 16px;
             text-align: center;
+            box-sizing: border-box;
         }
         empId{
-            width: 20%;
             background: #e0e0e0;
         }
-        userName{
-            width: 40%;
-        }
-        pw{
-            width: 40%;
-        }
+    }
+    empIdTit, empId{
+        width: 20%;
+    }
+    userNameTit, userName{
+        width: 40%;
+    }
+    pwTit, pw{
+        width: 40%;
     }
 }

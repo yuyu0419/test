@@ -7,52 +7,22 @@ orderWrap {
   box-sizing: border-box;
 }
 orderWrap tTitle {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  display: block;
   width: 100%;
   background: #e0e0e0;
   border-bottom: 1px dotted #000;
   font-size: 0;
 }
 orderWrap tTitle > * {
+  display: inline-block;
+  vertical-align: middle;
   padding: 10px;
   font-size: 16px;
   text-align: center;
-}
-orderWrap tTitle orderNoTit {
-  width: 10%;
-  background: #e0e0e0;
-}
-orderWrap tTitle orderDate {
-  width: 15%;
-}
-orderWrap tTitle custNum {
-  width: 15%;
-}
-orderWrap tTitle code {
-  width: 9.5%;
-}
-orderWrap tTitle productName {
-  width: 10%;
-}
-orderWrap tTitle qty {
-  width: 5%;
-}
-orderWrap tTitle price {
-  width: 10%;
-}
-orderWrap tTitle totalPrice {
-  width: 5%;
-}
-orderWrap tTitle method {
-  width: 10%;
+  box-sizing: border-box;
 }
 orderWrap order {
   display: block;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   width: 100%;
   border-bottom: 1px dotted #000;
   font-size: 0;
@@ -61,44 +31,49 @@ orderWrap order:last-child {
   border-bottom: 0;
 }
 orderWrap order > * {
+  display: inline-block;
+  vertical-align: middle;
   padding: 10px;
   font-size: 16px;
   text-align: center;
+  box-sizing: border-box;
 }
 orderWrap order orderNo {
-  width: 10%;
   background: #e0e0e0;
-}
-orderWrap order date {
-  width: 15%;
-}
-orderWrap order custNo {
-  width: 15%;
-}
-orderWrap order prdCode {
-  width: 9.5%;
-}
-orderWrap order prdName {
-  width: 10%;
-}
-orderWrap order prdQty {
-  width: 5%;
-}
-orderWrap order prdPrice {
-  width: 10%;
 }
 orderWrap order prdPrice::before {
   display: inline-block;
   content: "$";
 }
-orderWrap order total {
-  width: 10%;
-}
 orderWrap order total::before {
   display: inline-block;
   content: "$";
 }
-orderWrap order payment {
+orderWrap orderNoTit, orderWrap orderNo {
+  width: 10%;
+}
+orderWrap orderDate, orderWrap date {
+  width: 15%;
+}
+orderWrap custNum, orderWrap custNo {
+  width: 15%;
+}
+orderWrap code, orderWrap prdCode {
+  width: 10%;
+}
+orderWrap productName, orderWrap prdName {
+  width: 15%;
+}
+orderWrap qty, orderWrap prdQty {
+  width: 5%;
+}
+orderWrap price, orderWrap prdPrice {
+  width: 10%;
+}
+orderWrap totalPrice, orderWrap total {
+  width: 10%;
+}
+orderWrap method, orderWrap payment {
   width: 10%;
 }
 
@@ -111,34 +86,22 @@ prdWrap {
   box-sizing: border-box;
 }
 prdWrap tTitle {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  display: block;
   width: 100%;
   background: #e0e0e0;
   border-bottom: 1px dotted #000;
+  font-size: 0;
 }
 prdWrap tTitle > * {
+  display: inline-block;
+  vertical-align: middle;
   padding: 10px;
   font-size: 16px;
   text-align: center;
-}
-prdWrap tTitle prdCodeTit {
-  width: 20%;
-}
-prdWrap tTitle prdNameTit {
-  width: 40%;
-}
-prdWrap tTitle prdQtyTit {
-  width: 20%;
-}
-prdWrap tTitle prdPriceTit {
-  width: 20%;
+  box-sizing: border-box;
 }
 prdWrap product {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  display: block;
   width: 100%;
   border-bottom: 1px dotted #000;
   font-size: 0;
@@ -147,21 +110,26 @@ prdWrap product:last-child {
   border-bottom: 0;
 }
 prdWrap product > * {
+  display: inline-block;
+  vertical-align: middle;
   padding: 10px;
   font-size: 16px;
   text-align: center;
+  box-sizing: border-box;
 }
 prdWrap product prdCode {
-  width: 20%;
   background: #e0e0e0;
 }
-prdWrap product prdName {
-  width: 40%;
-}
-prdWrap product prdQty {
+prdWrap prdCodeTit, prdWrap prdCode {
   width: 20%;
 }
-prdWrap product prdPrice {
+prdWrap prdNameTit, prdWrap prdName {
+  width: 40%;
+}
+prdWrap prdQtyTit, prdWrap prdQty {
+  width: 20%;
+}
+prdWrap prdPriceTit, prdWrap prdPrice {
   width: 20%;
 }
 
@@ -174,31 +142,22 @@ empWrap {
   box-sizing: border-box;
 }
 empWrap tTitle {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  display: block;
   width: 100%;
   background: #e0e0e0;
   border-bottom: 1px dotted #000;
+  font-size: 0;
 }
 empWrap tTitle > * {
+  display: inline-block;
+  vertical-align: middle;
   padding: 10px;
   font-size: 16px;
   text-align: center;
-}
-empWrap tTitle empIdTit {
-  width: 20%;
-}
-empWrap tTitle userNameTit {
-  width: 40%;
-}
-empWrap tTitle pwTit {
-  width: 40%;
+  box-sizing: border-box;
 }
 empWrap employee {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  display: block;
   width: 100%;
   border-bottom: 1px dotted #000;
   font-size: 0;
@@ -207,17 +166,22 @@ empWrap employee:last-child {
   border-bottom: 0;
 }
 empWrap employee > * {
+  display: inline-block;
+  vertical-align: middle;
   padding: 10px;
   font-size: 16px;
   text-align: center;
+  box-sizing: border-box;
 }
 empWrap employee empId {
-  width: 20%;
   background: #e0e0e0;
 }
-empWrap employee userName {
+empWrap empIdTit, empWrap empId {
+  width: 20%;
+}
+empWrap userNameTit, empWrap userName {
   width: 40%;
 }
-empWrap employee pw {
+empWrap pwTit, empWrap pw {
   width: 40%;
 }
