@@ -13,6 +13,7 @@ orderWrap tTitle {
   width: 100%;
   background: #e0e0e0;
   border-bottom: 1px dotted #000;
+  font-size: 0;
 }
 orderWrap tTitle > * {
   padding: 10px;
@@ -30,10 +31,10 @@ orderWrap tTitle custNum {
   width: 15%;
 }
 orderWrap tTitle code {
-  width: 10%;
+  width: 9.5%;
 }
 orderWrap tTitle productName {
-  width: 15%;
+  width: 10%;
 }
 orderWrap tTitle qty {
   width: 5%;
@@ -42,17 +43,19 @@ orderWrap tTitle price {
   width: 10%;
 }
 orderWrap tTitle totalPrice {
-  width: 10%;
+  width: 5%;
 }
 orderWrap tTitle method {
   width: 10%;
 }
 orderWrap order {
+  display: block;
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 100%;
   border-bottom: 1px dotted #000;
+  font-size: 0;
 }
 orderWrap order:last-child {
   border-bottom: 0;
@@ -73,12 +76,12 @@ orderWrap order custNo {
   width: 15%;
 }
 orderWrap order prdCode {
-  width: 10%;
+  width: 9.5%;
 }
 orderWrap order prdName {
-  width: 15%;
+  width: 10%;
 }
-orderWrap order prdQtt {
+orderWrap order prdQty {
   width: 5%;
 }
 orderWrap order prdPrice {
@@ -126,7 +129,7 @@ prdWrap tTitle prdCodeTit {
 prdWrap tTitle prdNameTit {
   width: 40%;
 }
-prdWrap tTitle prdQttTit {
+prdWrap tTitle prdQtyTit {
   width: 20%;
 }
 prdWrap tTitle prdPriceTit {
@@ -155,7 +158,7 @@ prdWrap product prdCode {
 prdWrap product prdName {
   width: 40%;
 }
-prdWrap product prdQtt {
+prdWrap product prdQty {
   width: 20%;
 }
 prdWrap product prdPrice {

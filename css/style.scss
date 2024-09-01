@@ -9,11 +9,15 @@ orderWrap{
         display: flex;
         justify-content: space-around;
         align-items: center;
+        // display: block;
         width: 100%;
         background: #e0e0e0;
         border-bottom: 1px dotted #000;
+        font-size: 0;
         
         > * {
+            // display: inline-block;
+            // vertical-align: middle;
             padding: 10px;
             font-size: 16px;
             text-align: center;
@@ -29,10 +33,10 @@ orderWrap{
             width: 15%;
         }
         code{
-            width: 10%;
+            width: 9.5%;
         }
         productName{
-            width: 15%;
+            width: 10%;
         }
         qty{
             width: 5%;
@@ -41,22 +45,26 @@ orderWrap{
             width: 10%;
         }
         totalPrice{
-            width: 10%;
+            width: 5%;
         }
         method{
             width: 10%;
         }
     }
     order{
+        display: block;
         display: flex;
         justify-content: space-around;
         align-items: center;
         width: 100%;
         border-bottom: 1px dotted #000;
+        font-size: 0;
         &:last-child{
             border-bottom: 0;
         }
         > * {
+            // display: inline-block;
+            // vertical-align: middle;
             padding: 10px;
             font-size: 16px;
             text-align: center;
@@ -72,12 +80,12 @@ orderWrap{
             width: 15%;
         }
         prdCode{
-            width: 10%;
+            width: 9.5%;
         }
         prdName{
-            width: 15%;
+            width: 10%;
         }
-        prdQtt{
+        prdQty{
             width: 5%;
         }
         prdPrice{
@@ -127,7 +135,7 @@ prdWrap{
         prdNameTit{
             width: 40%;
         }
-        prdQttTit{
+        prdQtyTit{
             width: 20%;
         }
         prdPriceTit{
@@ -156,7 +164,7 @@ prdWrap{
         prdName{
             width: 40%;
         }
-        prdQtt{
+        prdQty{
             width: 20%;
         }
         prdPrice{
